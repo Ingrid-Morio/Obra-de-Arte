@@ -1,0 +1,9 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Dados da Obra:");
+
+        ObraDeArte o1 = new ObraDeArte("Mona Lisa","Leonardo da Vinci","Louvre - Paris");
+
+        System.out.println(o1.toString());
+    }
+}
