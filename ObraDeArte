@@ -1,0 +1,43 @@
+public class ObraDeArte {
+    
+    private String cidade;
+    private String tituloDaObra;
+    private String autor;    
+
+
+    public ObraDeArte(String cidade, String tituloDaObra, String autor){
+        
+        this.cidade=cidade;
+        this.tituloDaObra=tituloDaObra;
+        this.autor=autor;
+    }
+     
+    public void setCidade(String cidade){
+        this.cidade=cidade;
+    }
+    
+    public String getCidade(){
+        return this.cidade;
+    }
+    
+    public void setTituloDaObra(String tituloDaObra){
+        this.tituloDaObra=tituloDaObra;
+    }
+    
+    public String getTituloDaObra(){
+        return this.tituloDaObra;
+    }
+    
+    public void setAutor(String autor){
+        this.autor=autor;
+    }
+    
+    public String getAutor(){
+        return this.autor;
+    }
+    
+    
+    public String toString(){
+        return("Título da obra: "+this.getTituloDaObra()+" Autor: "+this.getAutor()+" Cidade onde a obra se encontra: "+this.getCidade());
+    }
+}
